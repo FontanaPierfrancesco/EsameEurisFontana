@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ProgettoCinema.Models.FilmView>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table"id="tabellaFilm">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdFilm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Titolo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Autore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Produttore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genere)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Durata)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdFilm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titolo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Autore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Produttore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genere)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Durata)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { IdFilm = item.IdFilm}) |
+            
+            
+        </td>
+    </tr>
+}
+
+</table>

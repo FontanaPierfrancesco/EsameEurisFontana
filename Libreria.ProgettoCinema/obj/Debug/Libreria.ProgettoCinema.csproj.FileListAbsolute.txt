@@ -1,0 +1,6 @@
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\bin\Debug\Libreria.ProgettoCinema.dll
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\bin\Debug\Libreria.ProgettoCinema.pdb
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\obj\Debug\Libreria.ProgettoCinema.csprojAssemblyReference.cache
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\obj\Debug\Libreria.ProgettoCinema.csproj.CoreCompileInputs.cache
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\obj\Debug\Libreria.ProgettoCinema.dll
+C:\Users\fontana\source\repos\ProgettoCinema\Libreria.ProgettoCinema\obj\Debug\Libreria.ProgettoCinema.pdb
